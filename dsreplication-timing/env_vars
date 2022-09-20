@@ -14,7 +14,7 @@
 # 
 
 export TIMING_TOPOLOGY_FILE=${TIMING_TOPOLOGY_FILE:=etc/topology.json}
-export TIMING_BASE_DN=${TIMING_BASE_DN:=cn=replication-timing,dc=example,dc=com}
+export TIMING_BASE_DN=${TIMING_BASE_DN:=cn=replication-timing,dc=rddops,dc=com}
 export BIND_DN=${BIND_DN:=cn=administrator}
 export BIND_PASSWORD_FILE=${BIND_PASSWORD_FILE:=etc/bind-pwd}
 
